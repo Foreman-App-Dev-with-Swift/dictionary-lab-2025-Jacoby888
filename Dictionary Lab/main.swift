@@ -65,17 +65,17 @@ print(favoriteWords.values)
  
 print("\n PROBLEM 2.1.1 : WHAT HAPPENED IN 2.1 \n")
 // Print out what happened when you ran 2.1.0
- 
+ print("It printed out the key and the values.")
  
 print("\n PROBLEM 2.2 : DATA TYPE OF DICTIONARY \n")
 //what is the type of the outputted variable from Problem 2.1.0? Was it what you expected. Print out your answer with full sentences.
 //Don't kill yourself over this answer. Just try.
- 
+ print("I don't know the outputted variable...")
  
  
 print("\n PROBLEM 2.3.0 : COUNTING ITEMS IN THE DICTIONARY \n")
 // Use built in dictionary methods to count the amount of elements in the dictionary you created in Problem 2.1. Print it using the .count attribute. Observe the result and continue.
-
+print(favoriteWords.count)
  
  
 print("\n PROBLEM 2.3.1 : WHAT HAPPENED IN 2.3.0? \n")
@@ -91,19 +91,21 @@ print(" \n PROBLEM 2.4 : ITERATING THROUGH THE DICTIONARY \n")
 //Also, when you print the value in the action braces, ADD a line to each value by including the code:   + "\n"
  // "\n" just means to add a line.
  //Ignore yellow warning.
- 
+for (key,value) in favoriteWords {
+    print(value + "\n")
+}
 
  
  
 print("\n PROBLEM 2.4.1 : WHAT HAPPENED IN 2.4?")
 //Print out what happened when you ran 2.4.
- 
+ print("All spaced out!")
  
  
  print(" \n PROBLEM 2.5.0 : REMOVING ITEMS FROM DICTIONARY \n")
 // Use the built in dictionary method to remove all current items from your dictionary that you created in Problem 2.0. Print it out and observe the results.
-
- 
+favoriteWords.removeAll()
+ print(favoriteWords)
  
 print("\n PROBLEM 2.5.1 : WHAT HAPPENED TO 2.5.0? \n")
 //Print out what happened in 2.5.0 and what it indicates.
